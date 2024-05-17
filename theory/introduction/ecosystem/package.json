@@ -1,0 +1,8 @@
+{
+    "scripts": {
+        "build": "webpack"
+    },
+    "dependencies": {
+        "node": "^20.13.0"
+    }
+}

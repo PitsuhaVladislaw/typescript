@@ -1,0 +1,28 @@
+var isEnabled = true;
+var isAlive = false;
+console.log(isEnabled);
+console.log(isAlive);
+var decimal = 6;
+var hex = 0xf00d;
+var binary = 10;
+var octal = 484;
+console.log(decimal);
+console.log(hex);
+console.log(binary);
+console.log(octal);
+var firstName = "Tom";
+var age = 28;
+var info = "\u0418\u043C\u044F ".concat(firstName, "    \u0412\u043E\u0437\u0440\u0430\u0441\u0442: ").concat(age);
+console.log(info);
+var sentence = 'Hello Typescript';
+console.log(sentence);
+var num1 = BigInt(100);
+console.log(num1);
+var num2 = 100n;
+console.log(num2);
+var someVar = "hello";
+console.log(someVar); // сейчас someVar - это string
+console.log(typeof (someVar));
+someVar = 20;
+console.log(someVar);
+console.log(typeof (someVar));
